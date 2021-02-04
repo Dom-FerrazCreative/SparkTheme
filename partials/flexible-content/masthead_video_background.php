@@ -5,24 +5,23 @@
                 <source src="<?php the_sub_field( 'video' ); ?>">
             </video>
         </div>
-
         <div class="watchNow">
-        <div class="wrapper">
-            <svg xmlns="http://www.w3.org/2000/svg"
-            xmlns:xhtml="http://www.w3.org/1999/xhtml"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            version="1.1"
-            width="10cm" height="10cm"
-            viewBox="0 0 1000 1000"
-            preserveAspectRatio="xMinYMin"
-            >
-            <defs>
-            <path id="textPath" d="M 250 500 A 250 250 0 1 1 250 500.0001"/>
-            </defs>
-            <text class="circle-text" x="0" y="0" text-anchor="middle"><textPath xlink:href="#textPath" startOffset="50%" >WATCH OUR PROMO REEL</textPath></text>
-            </svg>
-            <h1 class="hello">&#9658;</h1>
-  </div>
+            <div class="wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                xmlns:xhtml="http://www.w3.org/1999/xhtml"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                version="1.1"
+                width="10cm" height="10cm"
+                viewBox="0 0 1000 1000"
+                preserveAspectRatio="xMinYMin"
+                >
+                <defs>
+                <path id="textPath" d="M 250 500 A 250 250 0 1 1 250 500.0001"/>
+                </defs>
+                <text class="circle-text" x="0" y="0" text-anchor="middle"><textPath xlink:href="#textPath" startOffset="50%" >WATCH OUR PROMO REEL</textPath></text>
+                </svg>
+                <h1 class="hello">&#9658;</h1>
+            </div>
         </div>
 
         <div class="masthead-text" data-aos="fade-up">

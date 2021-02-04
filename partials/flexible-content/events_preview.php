@@ -30,20 +30,6 @@
                 <div class="text">
                     <h3><?php the_title(); ?></h3>
                     <?php the_excerpt();?>
-                    <!-- <?php 
-                        $date = get_field("date");
-
-                        // assuming your return format is "Ymd"
-                        $dateTime = DateTime::createFromFormat("Ymd", $date);
-                        
-                        if ( is_object($dateTime) ) {
-                            $month = $dateTime->format('F');
-                            $year = $dateTime->format('Y');
-                        //...
-                        }
-                        echo strval($month);
-                        echo $dateTime;
-                    ?> -->
                     <?php the_field( 'location' ); ?>
                     <span class="btn outline">Read Now</span>
                 </div>

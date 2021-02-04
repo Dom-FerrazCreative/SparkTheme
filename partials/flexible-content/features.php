@@ -1,7 +1,7 @@
 <section class="features" id="<?php the_sub_field( 'id' ); ?>">
 <div class="container">
     <div class="row justify-content-between">
-        <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-xs-12">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div class="feature-text">
                 <div class="fTitle">
                     <?php the_sub_field( 'feature-title' ); ?>
@@ -25,16 +25,12 @@
 
                             <?php $i++; ?>
                             <?php if (($i % 2)): ?>
-                                <div class="title">
-                                        <?php the_sub_field( 'title' ); ?>
-                                        <div class="arrow-btn">
-                                    <div class="learnMore">
-                                        Learn More
-                                    </div>
-                            </div>
-                                    </div>
+                                <div class="content">
+                                    <h3><?php the_sub_field( 'title' ); ?></h3>
+                                    <div class="btn solid">Learn More</div>
+                                </div>
                                 <?php if ( get_sub_field( 'image' ) ) : ?>
-                                    <img  class="fImage"src="<?php the_sub_field( 'image' ); ?>" />
+                                    <img  class="fImage-left"src="<?php the_sub_field( 'image' ); ?>" />
                                 <?php endif ?>
 
                             <?php endif ?>
@@ -46,7 +42,7 @@
                 ?>
 
         </div>
-        <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-xs-12">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <?php
                 if( have_rows('features') ):
                     $i = 0;
@@ -54,14 +50,12 @@
                     <div class="feature-cards">
                         <?php $i++; ?>
                         <?php if (!($i % 2)): ?>
-                            <div class="title">
-                                <?php the_sub_field( 'title' ); ?>
-                                    <div class="arrow-btn">
-                                        <div class="learnMore">Learn More</div>
-                                    </div>
-                            </div> 
+                            <div class="content">
+                                <h3><?php the_sub_field( 'title' ); ?></h3>
+                                <div class="btn solid">Learn More</div>
+                            </div>
                             <?php if ( get_sub_field( 'image' ) ) : ?>
-                                <img class="fImage" src="<?php the_sub_field( 'image' ); ?>" />
+                                <img class="fImage-right" src="<?php the_sub_field( 'image' ); ?>" />
                             <?php endif ?>
                         <?php endif ?>
                     </div>

@@ -1,24 +1,27 @@
 <section class="post-type-offset-slider" id="<?php the_sub_field( 'id' ); ?>" style="background-image:url('<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Events_background.svg');  background-repeat: no-repeat; background-size: 100% 100%;">
 	<div class="container">
 		<div class="row align-items-center">
-			<div class="col-6 col-lg-6 event-title">
+			<div class="col-6 col-lg-6 d-flex event-title align-self-center ">
 				<?php the_sub_field( 'title' ); ?>
+				<div class="circle">
+					<?php $event_count = count(get_sub_field('posts')); ?>
+					<?php echo $event_count ?>
+				</div>
 			</div>
-			<div class="col-6 col-lg-6 d-flex justify-content-end">
+			<div class="col-6 col-lg-6 d-flex justify-content-end align-self-center">
 			<div class="slider-arrow left">
-			<svg width="29" height="22" viewBox="0 0 29 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M28.2857 9.35772H6.00436L12.7999 2.29941L10.5866 0L0 11L10.5866 22L12.7999 19.7006L6.00436 12.6423H28.2857V9.35772Z" fill="white" fill-opacity="0.3"/>
-
-
-							<title>Path</title>
-							<g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-								<g id="Home" transform="translate(-1415.000000, -2138.000000)" fill-rule="nonzero"
-									stroke="#D4D4D4">
-									<g id="Group-16" transform="translate(195.999900, 2117.300000)">
-									</g>
+				<svg width="29" height="22" viewBox="0 0 29 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M28.2857 9.35772H6.00436L12.7999 2.29941L10.5866 0L0 11L10.5866 22L12.7999 19.7006L6.00436 12.6423H28.2857V9.35772Z" fill="white" fill-opacity="0.3"/>
+						<title>Path</title>
+						<g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+							<g id="Home" transform="translate(-1415.000000, -2138.000000)" fill-rule="nonzero"
+								stroke="#D4D4D4">
+								<g id="Group-16" transform="translate(195.999900, 2117.300000)">
 								</g>
 							</g>
-						</svg></div>
+					</g>
+				</svg>
+			</div>
 					<div class="slider-arrow right">
 					<svg width="57" height="22" viewBox="0 0 57 22" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M0 9.35772H50.9956L44.2001 2.29941L46.4134 0L57 11L46.4134 22L44.2001 19.7006L50.9956 12.6423H0V9.35772Z" fill="white"/>

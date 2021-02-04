@@ -29,16 +29,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<div class="col-2">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo.svg" /></a>
 			</div>
-			<div class="col-9 d-flex align-items-end flex-column">
+			<div class="col-8 d-flex align-items-end flex-column">
 				<?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 			</div>
-			<div class="col-1 d-flex align-items-end">
-			<div class="marquee">
-				<div>
-					<span>Inquire Inquire Inquire Inquire Inquire</span>
-					<span>inquire Inquire Inquire Inquire Inquire</span>
-				</div>
-				</div>		
+			<div class="col-2 d-flex inquire">
+			<a class="bigpadding">
+ 				<button class="wt-btn_sign"><span class="wt-btn_sign-bound"><span data-width="#FF9900" data-text="Inquire">Inquire</span></span></button>
+ 			 </a>
 			</div>
 		</div>
 	</div>
@@ -53,6 +50,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 			</button>
 	<div id="mobile_menu">
 		<?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
+		<div class="bigpadding">
+			<button class="wt-btn_sign"><span class="wt-btn_sign-bound"><span data-width="#FF9900" data-text="Inquire">Inquire</span></span></button>
+		</div>
 	</div>	
 </nav>
 <body <?php body_class(); ?>>
