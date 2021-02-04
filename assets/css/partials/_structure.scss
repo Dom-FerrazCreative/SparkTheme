@@ -211,7 +211,7 @@ h3 {
     color: $bg;
     line-height: 1.1;
     letter-spacing: -0.2px;
-    font-family: Libre Franklin;
+    font-family: Work Sans;
     @media screen and (max-width: 991px) {
         line-height: 1.2;
     }
@@ -798,12 +798,14 @@ footer {
     font-size: 1rem;
     font-weight: 500;
     transition: 250ms all ease;
-    border: 1px solid white;
-    border-style: solid;
     display: inline-block;
     &.solid {
-        background-color: $c1;
-        color: #FFF;
+        padding: 7px 30px;
+        background-color: $or;
+        border-radius: 5px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: black;
         &.alt {
             background-color: $c2;
         }
@@ -816,11 +818,11 @@ footer {
                 border-color: #FFF;
             }
         }
-        &:hover {
-            background-color: transparent;
-            color: $c1;
-            border-color: $c1;
-        }
+        // &:hover {
+        //     background-color: transparent;
+        //     color: $c1;
+        //     border-color: $c1;
+        // }
     }
     &.outline {
         color: $or;

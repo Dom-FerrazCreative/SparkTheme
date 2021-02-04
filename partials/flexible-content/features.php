@@ -27,7 +27,10 @@
                             <?php if (($i % 2)): ?>
                                 <div class="content">
                                     <h3><?php the_sub_field( 'title' ); ?></h3>
-                                    <div class="btn solid">Learn More</div>
+                                    <div class="btn solid">Learn More                                 <svg width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 5.89112H16.0195V7.95786H0V5.89112Z" fill="#070505"/>
+                                <path d="M11.5759 13.85L10.1283 12.4024L15.6067 6.92501L10.1283 1.44759L11.5759 0L18.4999 6.92504L11.5759 13.85Z" fill="#070505"/>
+                                </svg></div>
                                 </div>
                                 <?php if ( get_sub_field( 'image' ) ) : ?>
                                     <img  class="fImage-left"src="<?php the_sub_field( 'image' ); ?>" />
@@ -52,7 +55,14 @@
                         <?php if (!($i % 2)): ?>
                             <div class="content">
                                 <h3><?php the_sub_field( 'title' ); ?></h3>
-                                <div class="btn solid">Learn More</div>
+                                <div class="btn solid">Learn More 
+                                <svg width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 5.89112H16.0195V7.95786H0V5.89112Z" fill="#070505"/>
+                                <path d="M11.5759 13.85L10.1283 12.4024L15.6067 6.92501L10.1283 1.44759L11.5759 0L18.4999 6.92504L11.5759 13.85Z" fill="#070505"/>
+                                </svg>
+
+                                
+                                </div>
                             </div>
                             <?php if ( get_sub_field( 'image' ) ) : ?>
                                 <img class="fImage-right" src="<?php the_sub_field( 'image' ); ?>" />

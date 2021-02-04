@@ -56,4 +56,9 @@ jQuery(document).ready(function ($) {
       $('.post-type-offset-slider .slider').slick('slickNext');
     }
   });
+  $('.slider').on('afterChange', function (event, slick, currentSlide) {
+    if (slick.currentSlide >= slick.slideCount - slick.options.slidesToShow) {
+      console.log('last slide');
+    }
+  });
 });

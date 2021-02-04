@@ -204,7 +204,7 @@ a:focus{outline:0}
 a:hover,a:active{outline:0}
 input:focus{outline:0}
 select{width:100%}
-h1,h2,h3{color:#fafafa;line-height:1.1;letter-spacing:-0.2px;font-family:Libre Franklin}
+h1,h2,h3{color:#fafafa;line-height:1.1;letter-spacing:-0.2px;font-family:Work Sans}
 h1{font-size:4rem;font-weight:500}
 h2{font-size:3rem;font-weight:500}
 h3{font-size:2rem;font-weight:500}
@@ -283,12 +283,11 @@ footer .newsletter-wrapper input[type=email]::placeholder{color:#bbb}
 footer .newsletter-wrapper button{border-radius:0;height:60px}
 footer .newsletter-wrapper button svg g{fill:#FFF}
 .logged-in nav#desktop{top:30px}
-.btn,footer .newsletter-wrapper button,.newsletter-cta .form .newsletter-wrapper input[type=submit]{font-size:1rem;font-weight:500;-webkit-transition:250ms all ease;transition:250ms all ease;border:1px solid white;border-style:solid;display:inline-block}
-.btn.solid,footer .newsletter-wrapper button,.newsletter-cta .form .newsletter-wrapper input[type=submit]{background-color:#e1d5c3;color:#FFF}
+.btn,footer .newsletter-wrapper button,.newsletter-cta .form .newsletter-wrapper input[type=submit]{font-size:1rem;font-weight:500;-webkit-transition:250ms all ease;transition:250ms all ease;display:inline-block}
+.btn.solid,footer .newsletter-wrapper button,.newsletter-cta .form .newsletter-wrapper input[type=submit]{padding:7px 30px;background-color:#f89c00;border-radius:5px;text-transform:uppercase;font-weight:700;color:black}
 .btn.solid.alt,footer .newsletter-wrapper button.alt,.newsletter-cta .form .newsletter-wrapper input.alt[type=submit]{background-color:#808791}
 .btn.solid.white,footer .newsletter-wrapper button.white,.newsletter-cta .form .newsletter-wrapper input.white[type=submit]{background-color:#FFF;color:#808791}
 .btn.solid.white:hover,footer .newsletter-wrapper button.white:hover,.newsletter-cta .form .newsletter-wrapper input.white:hover[type=submit]{background-color:transparent;color:#FFF;border-color:#FFF}
-.btn.solid:hover,footer .newsletter-wrapper button:hover,.newsletter-cta .form .newsletter-wrapper input:hover[type=submit]{background-color:transparent;color:#e1d5c3;border-color:#e1d5c3}
 .btn.outline,footer .newsletter-wrapper button.outline,.newsletter-cta .form .newsletter-wrapper input.outline[type=submit]{color:#f89c00;border-color:#f89c00;border-radius:42px;padding:.8rem 1.25rem}
 .btn.outline.alt,footer .newsletter-wrapper button.outline.alt,.newsletter-cta .form .newsletter-wrapper input.outline.alt[type=submit]{color:#808791;border-color:#808791}
 .btn.outline.alt:hover,footer .newsletter-wrapper button.outline.alt:hover,.newsletter-cta .form .newsletter-wrapper input.outline.alt:hover[type=submit]{background-color:#808791;color:#FFF}
@@ -471,11 +470,11 @@ section{padding:7rem 0}
 .features .feature-text .viewAll{font-weight:500;font-size:1rem;line-height:1.2;letter-spacing:.305em;text-transform:uppercase;color:#f90}
 .features .feature-cards{position:relative}
 .features .feature-cards .content{position:absolute;bottom:2rem;right:30px;max-width:280px}
-.features .feature-cards .content h3{font-size:3.5rem;line-height:1.2;font-style:italic;font-weight:bold}
+.features .feature-cards .content h3{font-size:3.5rem;line-height:1.2;font-style:italic;font-weight:600;text-transform:uppercase}
 .features .feature-cards .content .btn,.features .feature-cards .content footer .newsletter-wrapper button,footer .newsletter-wrapper .features .feature-cards .content button,.features .feature-cards .content .newsletter-cta .form .newsletter-wrapper input[type=submit],.newsletter-cta .form .newsletter-wrapper .features .feature-cards .content input[type=submit]{visibility:hidden;opacity:0}
 .features .feature-cards:hover .content .btn,.features .feature-cards:hover .content footer .newsletter-wrapper button,footer .newsletter-wrapper .features .feature-cards:hover .content button,.features .feature-cards:hover .content .newsletter-cta .form .newsletter-wrapper input[type=submit],.newsletter-cta .form .newsletter-wrapper .features .feature-cards:hover .content input[type=submit]{visibility:visible;opacity:1}
-.features .feature-cards .fImage-left{padding:3rem 4rem 3rem 0;width:100%}
-.features .feature-cards .fImage-right{padding:3rem 0 3rem 4rem;width:100%}
+.features .feature-cards .fImage-left{padding:3rem 3rem 3rem 0;width:100%}
+.features .feature-cards .fImage-right{padding:3rem 0 3rem 3rem;width:100%}
 .post-type-offset-slider{padding-top:10rem;padding-bottom:17rem;overflow-x:hidden}
 .post-type-offset-slider .tag{padding:.25rem 1rem;border:1px solid #FFF;border-radius:25px;font-size:.8rem;margin-right:.5rem;margin-top:1rem}
 .post-type-offset-slider .slider{display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex}
@@ -862,13 +861,26 @@ nav#desktop .nav-contact .line{display:none}
 .events-preview .text,.events-preview .text h3{height:auto}
 .events-preview .image{height:150px}
 .masthead-video-background .watch{font-size:1.5rem}
-}@media only screen and (max-width:991px){.masthead-video-background .container{margin-left:5% !important;margin-right:5% !important}
+}@media only screen and (max-width:991px){.masthead-video-background .container{margin-left:10% !important;margin-right:10% !important}
 .masthead-video-background .video-background{margin-top:2rem;position:absolute;top:20%;left:30%;right:0;bottom:10%;overflow:hidden;border-radius:7px 0 0 7px}
 .masthead-video-background .video-background #myVideo{position:absolute;top:60%;left:60%;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%)}
 .masthead-video-background .masthead-text{z-index:5;width:100%;margin-top:20%}
 .masthead-video-background .masthead-text .m-title{font-family:Work Sans;font-style:italic;text-transform:uppercase;font-weight:700;font-size:3.5rem;line-height:1.1;max-width:500px;margin:0 !important}
 .masthead-video-background .masthead-text .subtitle{font-size:1rem;padding-top:4rem;max-width:500px}
 .masthead-video-background .masthead-text::before{top:290px;bottom:-30px}
+.features{padding-top:7rem}
+.features .container{margin-left:10% !important;margin-right:10% !important}
+.features .feature-text{padding-left:1rem;font-family:Libre Franklin}
+.features .feature-text .fTitle{font-style:normal;font-weight:500;font-size:1rem;line-height:1.2;letter-spacing:.305em;text-transform:uppercase;color:#fff}
+.features .feature-text .fSubtitle{font-size:1.1rem;line-height:1.2;color:#b9b9b9;margin:1rem 0;max-width:350px}
+.features .feature-text .viewAll{font-weight:500;font-size:1rem;line-height:1.2;letter-spacing:.305em;text-transform:uppercase;color:#f90}
+.features .feature-cards{position:relative}
+.features .feature-cards .content{position:absolute;bottom:2rem;right:30px;max-width:280px}
+.features .feature-cards .content h3{font-size:3.5rem;line-height:1.2;font-style:italic;font-weight:600;text-transform:uppercase}
+.features .feature-cards .content .btn,.features .feature-cards .content footer .newsletter-wrapper button,footer .newsletter-wrapper .features .feature-cards .content button,.features .feature-cards .content .newsletter-cta .form .newsletter-wrapper input[type=submit],.newsletter-cta .form .newsletter-wrapper .features .feature-cards .content input[type=submit]{visibility:hidden;opacity:0}
+.features .feature-cards:hover .content .btn,.features .feature-cards:hover .content footer .newsletter-wrapper button,footer .newsletter-wrapper .features .feature-cards:hover .content button,.features .feature-cards:hover .content .newsletter-cta .form .newsletter-wrapper input[type=submit],.newsletter-cta .form .newsletter-wrapper .features .feature-cards:hover .content input[type=submit]{visibility:visible;opacity:1}
+.features .feature-cards .fImage-left{padding:2rem 2rem 2rem 0;width:100%}
+.features .feature-cards .fImage-right{padding:2rem 0 2rem 2rem;width:100%}
 }@media only screen and (max-width:991px) and (max-width:575px){.masthead-video-background .masthead-text{margin-top:80%}
 }@media only screen and (max-width:767px){.masthead-video-background .video-background{margin-top:2rem;position:absolute;top:20%;left:25%;right:0;bottom:10%;overflow:hidden;border-radius:7px 0 0 7px}
 .masthead-video-background .video-background #myVideo{position:absolute;top:50%;left:50%;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%)}

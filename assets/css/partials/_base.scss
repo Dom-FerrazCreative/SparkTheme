@@ -280,8 +280,8 @@ body {
     }
     @media only screen and (max-width: 991px) {
         .container {
-            margin-left: 5% !important;
-            margin-right: 5% !important;
+            margin-left: 10% !important;
+            margin-right: 10% !important;
         }
         .video-background {
             margin-top: 2rem;
@@ -561,7 +561,8 @@ body {
                 font-size: 3.5rem;
                 line-height: 1.2;
                 font-style: italic;
-                font-weight: bold;
+                font-weight: 600;
+                text-transform: uppercase;
             }
             .btn {
                 visibility: hidden;
@@ -575,14 +576,88 @@ body {
             }
         }
         .fImage-left {
-            padding: 3rem 4rem 3rem 0;
+            padding: 3rem 3rem 3rem 0;
             width: 100%;
             // max-width: 520px;
         }
         .fImage-right {
-            padding: 3rem 0 3rem 4rem;
+            padding: 3rem 0 3rem 3rem;
             width: 100%;
             // max-width: 520px;
+        }
+    }
+    @media only screen and (max-width: 991px) {
+        .container {
+            margin-left: 10% !important;
+            margin-right: 10% !important;
+        }
+        padding-top: 7rem;
+        .feature-text {
+            padding-left: 1rem;
+            font-family: Libre Franklin;
+            .fTitle {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 1rem;
+                line-height: 1.2;
+                /* identical to box height, or 97% */
+                letter-spacing: 0.305em;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
+            .fSubtitle {
+                font-size: 1.1rem;
+                line-height: 1.2;
+                /* or 139% */
+                color: #B9B9B9;
+                margin: 1rem 0;
+                max-width: 350px;
+            }
+            .viewAll {
+                font-weight: 500;
+                font-size: 1rem;
+                line-height: 1.2;
+                /* identical to box height, or 97% */
+                letter-spacing: 0.305em;
+                text-transform: uppercase;
+                color: #FF9900;
+            }
+        }
+        .feature-cards {
+            position: relative;
+            .content {
+                position: absolute;
+                bottom: 2rem;
+                right: 30px;
+                max-width: 280px;
+                h3 {
+                    font-size: 3.5rem;
+                    line-height: 1.2;
+                    font-style: italic;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                }
+                .btn {
+                    visibility: hidden;
+                    opacity: 0;
+                }
+            }
+            &:hover .content {
+                .btn {
+                    visibility: visible;
+                    opacity: 1;
+                }
+            }
+            .fImage-left {
+                padding: 2rem 2rem 2rem 0;
+                width: 100%;
+                // max-width: 520px;
+            }
+            .fImage-right {
+                padding: 2rem 0 2rem 2rem;
+                width: 100%;
+                // max-width: 520px;
+            }
         }
     }
 }
