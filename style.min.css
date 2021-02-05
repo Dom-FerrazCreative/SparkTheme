@@ -457,9 +457,9 @@ section{padding:7rem 0}
 .masthead-video-background .watch .text{font-weight:700}
 .masthead-video-background .watch .play{margin-left:1rem}
 .image-text{position:relative}
-.image-text .side-image{position:absolute;left:0;top:-100px}
+.image-text .side-image{position:absolute;left:0;top:-220px}
 .image-text .img-sub{font-family:Libre Franklin;font-style:normal;font-weight:500;font-size:1rem;letter-spacing:.305em;text-transform:uppercase;text-align:right;float:right}
-.image-text .img-title{font-family:Work Sans;font-style:italic;font-weight:bold;font-size:4rem;text-transform:uppercase;color:#fff;text-align:right;float:right}
+.image-text .img-title{font-family:Work Sans;font-style:italic;font-weight:bold;font-size:4rem;text-transform:uppercase;color:#fff;text-align:right}
 .image-text .bottom{padding-top:5rem}
 .image-text .bottom .main_text{font-family:Libre Franklin;font-style:normal;font-weight:600;font-size:1.3rem;line-height:1.2;color:#fff;max-width:320px}
 .image-text .bottom .text{font-family:Libre Franklin;font-style:normal;font-weight:normal;font-size:1rem;line-height:1.6;color:#b9b9b9;max-width:690px}
@@ -469,7 +469,7 @@ section{padding:7rem 0}
 .features .feature-text .fSubtitle{font-size:1.1rem;line-height:1.2;color:#b9b9b9;margin:1rem 0;max-width:350px}
 .features .feature-text .viewAll{font-weight:500;font-size:1rem;line-height:1.2;letter-spacing:.305em;text-transform:uppercase;color:#f90}
 .features .feature-cards{position:relative}
-.features .feature-cards .content{position:absolute;bottom:2rem;right:30px;max-width:280px}
+.features .feature-cards .content{position:absolute;bottom:2rem;right:40px;max-width:280px}
 .features .feature-cards .content h3{font-size:3.5rem;line-height:1.2;font-style:italic;font-weight:600;text-transform:uppercase}
 .features .feature-cards .content .btn,.features .feature-cards .content footer .newsletter-wrapper button,footer .newsletter-wrapper .features .feature-cards .content button,.features .feature-cards .content .newsletter-cta .form .newsletter-wrapper input[type=submit],.newsletter-cta .form .newsletter-wrapper .features .feature-cards .content input[type=submit]{visibility:hidden;opacity:0}
 .features .feature-cards:hover .content .btn,.features .feature-cards:hover .content footer .newsletter-wrapper button,footer .newsletter-wrapper .features .feature-cards:hover .content button,.features .feature-cards:hover .content .newsletter-cta .form .newsletter-wrapper input[type=submit],.newsletter-cta .form .newsletter-wrapper .features .feature-cards:hover .content input[type=submit]{visibility:visible;opacity:1}
@@ -486,7 +486,7 @@ section{padding:7rem 0}
 .post-type-offset-slider .slick-dots li button{color:transparent;background-color:#FFF;height:3px;width:50px;font-size:0;margin-right:.6rem;opacity:.6}
 .post-type-offset-slider .slick-dots li.slick-active button{opacity:1}
 .post-type-offset-slider .event-title{font-family:Libre Franklin;font-style:normal;font-weight:500;font-size:1rem;letter-spacing:.305em;text-transform:uppercase;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex}
-.post-type-offset-slider .event-title .circle{width:40px;height:40px;border-radius:50%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;background-color:#f90}
+.post-type-offset-slider .event-title .circle{width:40px;height:40px;border-radius:50%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;background-color:#f90;color:black}
 .post-type-offset-slider .sub,.post-type-offset-slider .progress-bar-with-text .form-testimonial .author,.progress-bar-with-text .form-testimonial .post-type-offset-slider .author,.post-type-offset-slider .progress-bar-with-text .form-testimonial a,.progress-bar-with-text .form-testimonial .post-type-offset-slider a{font-family:Libre Franklin;font-style:normal;font-weight:normal;font-size:1rem;color:#e5e5e5;max-width:430px}
 .post-type-offset-slider .slider-arrow{cursor:pointer;height:60px;width:60px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
 .post-type-offset-slider .slider-arrow svg circle,.post-type-offset-slider .slider-arrow svg g{-webkit-transition:250ms all ease;transition:250ms all ease}

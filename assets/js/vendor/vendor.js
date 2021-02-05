@@ -60,7 +60,7 @@ jQuery(document).ready(function($) {
     });
     $('.slider').on('afterChange', function(event, slick, currentSlide) {
         if (slick.currentSlide >= slick.slideCount - slick.options.slidesToShow) {
-            console.log('last slide')
+            console.log('last slide');
         }
     });
 });

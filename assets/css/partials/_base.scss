@@ -469,7 +469,7 @@ body {
     .side-image {
         position: absolute;
         left: 0;
-        top: -100px;
+        top: -220px;
     }
     .img-sub {
         font-family: Libre Franklin;
@@ -490,7 +490,7 @@ body {
         text-transform: uppercase;
         color: #FFFFFF;
         text-align: right;
-        float: right;
+        // max-width: 550px;
     }
     .bottom {
         padding-top: 5rem;
@@ -555,7 +555,7 @@ body {
         .content {
             position: absolute;
             bottom: 2rem;
-            right: 30px;
+            right: 40px;
             max-width: 280px;
             h3 {
                 font-size: 3.5rem;
@@ -736,6 +736,7 @@ body {
             align-items: center;
             justify-content: center;
             background-color: #FF9900;
+            color: black;
         }
     }
     .sub {
